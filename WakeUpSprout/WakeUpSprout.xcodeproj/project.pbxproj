@@ -6,6 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		87B3C9DC2E45AA270097CC59 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9DB2E45AA270097CC59 /* SwiftDate */; };
+		87B3C9DF2E45AA3E0097CC59 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9DE2E45AA3E0097CC59 /* Kingfisher */; };
+		87B3C9E22E45AA4E0097CC59 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9E12E45AA4E0097CC59 /* SnapKit */; };
+		87B3C9E52E45AA650097CC59 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9E42E45AA650097CC59 /* Then */; };
+		87B3C9E82E45AA7E0097CC59 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9E72E45AA7E0097CC59 /* Alamofire */; };
+		87B3C9EB2E45AA9A0097CC59 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9EA2E45AA9A0097CC59 /* RxCocoa */; };
+		87B3C9ED2E45AA9A0097CC59 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9EC2E45AA9A0097CC59 /* RxRelay */; };
+		87B3C9EF2E45AA9A0097CC59 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9EE2E45AA9A0097CC59 /* RxSwift */; };
+		87B3C9F22E45AAB90097CC59 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9F12E45AAB90097CC59 /* Lottie */; };
+		87B3C9F52E45AAF10097CC59 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 87B3C9F42E45AAF10097CC59 /* IQKeyboardManagerSwift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		870EC3202E448EB70021A713 /* WakeUpSprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpSprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -36,6 +49,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87B3C9EB2E45AA9A0097CC59 /* RxCocoa in Frameworks */,
+				87B3C9E82E45AA7E0097CC59 /* Alamofire in Frameworks */,
+				87B3C9F22E45AAB90097CC59 /* Lottie in Frameworks */,
+				87B3C9ED2E45AA9A0097CC59 /* RxRelay in Frameworks */,
+				87B3C9E22E45AA4E0097CC59 /* SnapKit in Frameworks */,
+				87B3C9F52E45AAF10097CC59 /* IQKeyboardManagerSwift in Frameworks */,
+				87B3C9DF2E45AA3E0097CC59 /* Kingfisher in Frameworks */,
+				87B3C9DC2E45AA270097CC59 /* SwiftDate in Frameworks */,
+				87B3C9EF2E45AA9A0097CC59 /* RxSwift in Frameworks */,
+				87B3C9E52E45AA650097CC59 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +101,16 @@
 			);
 			name = WakeUpSprout;
 			packageProductDependencies = (
+				87B3C9DB2E45AA270097CC59 /* SwiftDate */,
+				87B3C9DE2E45AA3E0097CC59 /* Kingfisher */,
+				87B3C9E12E45AA4E0097CC59 /* SnapKit */,
+				87B3C9E42E45AA650097CC59 /* Then */,
+				87B3C9E72E45AA7E0097CC59 /* Alamofire */,
+				87B3C9EA2E45AA9A0097CC59 /* RxCocoa */,
+				87B3C9EC2E45AA9A0097CC59 /* RxRelay */,
+				87B3C9EE2E45AA9A0097CC59 /* RxSwift */,
+				87B3C9F12E45AAB90097CC59 /* Lottie */,
+				87B3C9F42E45AAF10097CC59 /* IQKeyboardManagerSwift */,
 			);
 			productName = WakeUpSprout;
 			productReference = 870EC3202E448EB70021A713 /* WakeUpSprout.app */;
@@ -107,6 +140,16 @@
 			);
 			mainGroup = 870EC3172E448EB70021A713;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				87B3C9DA2E45AA270097CC59 /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				87B3C9DD2E45AA3E0097CC59 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				87B3C9E02E45AA4E0097CC59 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				87B3C9E32E45AA650097CC59 /* XCRemoteSwiftPackageReference "Then" */,
+				87B3C9E62E45AA7E0097CC59 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				87B3C9E92E45AA9A0097CC59 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				87B3C9F02E45AAB90097CC59 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				87B3C9F32E45AAF10097CC59 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 870EC3212E448EB70021A713 /* Products */;
 			projectDirPath = "";
@@ -345,6 +388,126 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		87B3C9DA2E45AA270097CC59 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		87B3C9DD2E45AA3E0097CC59 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.5.0;
+			};
+		};
+		87B3C9E02E45AA4E0097CC59 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		87B3C9E32E45AA650097CC59 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		87B3C9E62E45AA7E0097CC59 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+		87B3C9E92E45AA9A0097CC59 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.9.0;
+			};
+		};
+		87B3C9F02E45AAB90097CC59 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.2;
+			};
+		};
+		87B3C9F32E45AAF10097CC59 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		87B3C9DB2E45AA270097CC59 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9DA2E45AA270097CC59 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		87B3C9DE2E45AA3E0097CC59 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9DD2E45AA3E0097CC59 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		87B3C9E12E45AA4E0097CC59 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E02E45AA4E0097CC59 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		87B3C9E42E45AA650097CC59 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E32E45AA650097CC59 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
+		};
+		87B3C9E72E45AA7E0097CC59 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E62E45AA7E0097CC59 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		87B3C9EA2E45AA9A0097CC59 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E92E45AA9A0097CC59 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		87B3C9EC2E45AA9A0097CC59 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E92E45AA9A0097CC59 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		87B3C9EE2E45AA9A0097CC59 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9E92E45AA9A0097CC59 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		87B3C9F12E45AAB90097CC59 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9F02E45AAB90097CC59 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		87B3C9F42E45AAF10097CC59 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 87B3C9F32E45AAF10097CC59 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 870EC3182E448EB70021A713 /* Project object */;
 }
