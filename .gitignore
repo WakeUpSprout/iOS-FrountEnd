@@ -66,3 +66,5 @@ GoogleService-Info.plist
 WakeUpSprout/WakeUpSprout/Resource/Info.plist
 
 .DS_Store
+
+WakeUpSprout/WakeUpSprout/App/AppDelegate.swift
