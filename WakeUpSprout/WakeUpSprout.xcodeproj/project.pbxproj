@@ -36,7 +36,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		870EC3352E448EB80021A713 /* Exceptions for "WakeUpSprout" folder in "WakeUpSprout" target */ = {
+		875F47432E797006007B363E /* Exceptions for "WakeUpSprout" folder in "WakeUpSprout" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resource/Info.plist,
@@ -49,7 +49,7 @@
 		870EC3222E448EB70021A713 /* WakeUpSprout */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				870EC3352E448EB80021A713 /* Exceptions for "WakeUpSprout" folder in "WakeUpSprout" target */,
+				875F47432E797006007B363E /* Exceptions for "WakeUpSprout" folder in "WakeUpSprout" target */,
 			);
 			path = WakeUpSprout;
 			sourceTree = "<group>";
@@ -168,11 +168,12 @@
 				};
 			};
 			buildConfigurationList = 870EC31B2E448EB70021A713 /* Build configuration list for PBXProject "WakeUpSprout" */;
-			developmentRegion = en;
+			developmentRegion = ko;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ko,
 			);
 			mainGroup = 870EC3172E448EB70021A713;
 			minimizedProjectReferenceProxies = 1;
@@ -290,6 +291,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -354,6 +356,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
