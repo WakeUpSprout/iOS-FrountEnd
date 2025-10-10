@@ -16,7 +16,7 @@ struct GoogleSignInButton: View {
                 Image("googleIcon")
                     .resizable()
                     .frame(width: 20, height: 20)
-                Text("Sign in with Google")
+                Text("구글로 로그인")
                     .foregroundColor(.black)
                     .font(.system(size: 16, weight: .medium))
             }
