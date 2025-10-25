@@ -3,7 +3,7 @@
 //  WakeUpSprout
 //
 //  Created by 이부용 on 10/10/25.
-//
+// 1. 서버 API 스펙에 맞춘 Request/Response 구조
 
 import Foundation
 
@@ -31,7 +31,7 @@ struct ProfileDTO: Codable {
     
     enum CodingKeys: String, CodingKey {
         case name
-        case image = "Image"
+        case image = "Image" // 백엔드 요구사항
     }
 }
 
